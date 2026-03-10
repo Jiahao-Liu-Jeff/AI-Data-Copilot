@@ -24,12 +24,19 @@
 ```bash
 git clone https://github.com/你的用户名/ai-data-copilot.git
 cd ai-data-copilot
+```
 
 2. 安装依赖
+```bash
 pip install -r requirements.txt
+```
 
 3.设置环境变量
+```bash
 export DEEPSEEK_API_KEY=APIKEY
+```
 
 4.运行
+```bash
 python run.py 
+```
