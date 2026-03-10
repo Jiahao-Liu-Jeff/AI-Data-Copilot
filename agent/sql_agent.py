@@ -67,3 +67,9 @@ def run_agent():
         except KeyboardInterrupt:
             print("\n手动退出 Agent")
             break
+
+def run(user_input: str) -> str:
+    result = agent.run(input=user_input)
+    print("=== Agent 输出 ===")
+    print(result)
+    return result
